@@ -1,0 +1,11 @@
+find-companion-thing.el - locate and visit a companion file
+
+Locate and visit a companion to the currently visited file.  Your
+file has a companion when its filename differs in a predictable way
+and is located in a predictable place.  If you want to quickly
+switch between companions, this function might be for you.  As
+written it supports C or C++, where you have .h vs .c, .c++, or
+.cpp located in "include", "inc" and "src" or "source" sibling
+directories. There is one function to call: fct/find-file.  It
+toggles between the include and the source and the header, as
+applicable. 
