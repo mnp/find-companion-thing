@@ -1,4 +1,4 @@
-find-companion-thing.el - locate and visit a companion file
+find-companion-thing.el - EMACS: locate and visit a companion file
 
 Locate and visit a companion to the currently visited file.  Your
 file has a companion when its filename differs in a predictable way
